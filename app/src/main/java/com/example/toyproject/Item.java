@@ -1,22 +1,22 @@
 package com.example.toyproject;
 
 public class Item {
-    private String name;
-    private String code;
+    private String id;
+    private String co;
 
-    public String getName() {
-        return name;
+    public String getId() {
+        return id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getCode() {
-        return code;
+    public String getCo() {
+        return co;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setCo(String co) {
+        this.co = co;
     }
 }
